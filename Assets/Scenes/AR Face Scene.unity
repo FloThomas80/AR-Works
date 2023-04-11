@@ -420,6 +420,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: AR Default Face
       objectReference: {fileID: 0}
+    - target: {fileID: 536623421200341602, guid: 34caa2c03cd55be4bbedf515b6b8398c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 536623421200341602, guid: 34caa2c03cd55be4bbedf515b6b8398c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 536623421200341602, guid: 34caa2c03cd55be4bbedf515b6b8398c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 536623421200341602, guid: 34caa2c03cd55be4bbedf515b6b8398c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1826
+      objectReference: {fileID: 0}
+    - target: {fileID: 536623421200341602, guid: 34caa2c03cd55be4bbedf515b6b8398c,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1183804894613421455, guid: 34caa2c03cd55be4bbedf515b6b8398c,
         type: 3}
       propertyPath: m_RootOrder
