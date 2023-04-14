@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/interactiveOne.unity
+    guid: b294f937ebb903e4cb21a004b63b5a14
   - enabled: 1
-    path: Assets/Scenes/AR Face Scene.unity
-    guid: 04ed1c8e8d9497a42b9a301d0a1d3877
+    path: Assets/Scenes/Ocean.unity
+    guid: b5ea88e2439349b4080393bce65677be
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
