@@ -7,11 +7,12 @@ TagManager:
   - Mask
   - Stars
   - Monocle
+  - Fish
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacles
   - Water
   - UI
   - 
