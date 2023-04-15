@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoidsFish : MonoBehaviour
 {
-    public GameObject FishPrefab;
+    public GameObject FishPrefab1;
     public GameObject GoalPrefab;
     public GameObject TankPrefab;
     public static int TankSize = 8;
@@ -34,7 +34,7 @@ public class BoidsFish : MonoBehaviour
 
             Debug.Log(xx + "  " + yy + "  " + zz);
             Vector3 pos = new Vector3(xx, yy, zz);//on definit le spawn du poisson en fonction du centre du bocal et de sa taille
-            AllFish[i] = (GameObject)Instantiate(FishPrefab, pos, Quaternion.identity);
+            AllFish[i] = (GameObject)Instantiate(FishPrefab1, pos, Quaternion.identity);
          
         }
               
@@ -52,8 +52,6 @@ public class BoidsFish : MonoBehaviour
 
             GoalPos = new Vector3(xx, yy, zz);//on definit la taille du bocal en fonction de son centre
             GoalPrefab.transform.position = GoalPos;
-
-
         }
     }
 }

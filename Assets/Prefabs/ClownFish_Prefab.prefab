@@ -85,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e19c991dcd2424f44a1e7baeaa2a6958,
         type: 3}
       propertyPath: m_Name
-      value: Fish3 (2) Variant
+      value: ClownFish_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e19c991dcd2424f44a1e7baeaa2a6958,
         type: 3}
@@ -134,17 +134,3 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &-1427778953844452702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3376615986833498552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 577e66964356c834a870e8274c511e7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 0.5
-  NeighbDistance: 2
